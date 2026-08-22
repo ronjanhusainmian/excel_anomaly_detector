@@ -15,15 +15,15 @@ To run the dashboard:
 1. Clone the repo and go into the folder.
 
 2. Create and activate a virtual environment:
-python3 -m venv venv
-source venv/bin/activate 
+`python3 -m venv venv`
+`source venv/bin/activate`
 
 3. Install dependencies:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 4. Create the .env file and add API key:
-echo "OPENAI_API_KEY=own-key-here" > .env
+`echo "OPENAI_API_KEY=own-key-here" > .env`
 
 5. Run the app:
-streamlit run app.py
+`streamlit run app.py`
 
