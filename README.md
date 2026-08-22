@@ -1,8 +1,7 @@
 # Excel Formula Anomaly Detector
 
-Scans an entire workbook (not just one cell you point it at) and flags
-formulas that break the pattern used by the rest of their column/row block.
-This is a common source of silent spreadsheet errors: a
+Scans an entire workbook and flags formulas that break the pattern used by the 
+rest of their column/row block. This is a common source of silent spreadsheet errors: a
 formula gets filled down or across, and one cell along the way doesn't
 quite match (wrong range, a stray absolute reference, a manual edit that
 didn't get updated).
